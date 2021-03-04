@@ -1,0 +1,265 @@
+.dr {
+background-image: url('http://retailforevermedia.000webhostapp.com/images/drslideforrfmwebsite.png');
+background-width: 75%;
+background-repeat:no-repeat;
+font-family: 'Montserrat', sans-serif;
+background-position: center;
+}
+.cursor-on-hover{
+cursor: none;
+}
+.cursor-on-hover:hover{
+cursor: pointer;
+}
+.teallink {
+color: #20B2AA;
+text-decoration: none;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.sidenav {
+height: 100%;
+width: 250px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #717471;
+overflow-x: hidden;
+padding-top: 20px;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.sidenav a {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 20px;
+color: #FFFFFF;
+display: block;
+}
+
+.sidenav a:hover {
+color: #1DFFDD;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.link55555 {
+font-family: 'Montserrat', sans-serif;
+font-size: 1.5em;
+}
+.link55555 a:link {
+  text-decoration: none;
+  color: #26b8bc;
+  background: transparent;
+}
+.link55555 a:visited {
+  text-decoration: none;
+  color: #0326EC;
+  background: transparent;
+}
+.link55555 a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: transparent;
+}
+.header {
+background-color: #717471;
+margin-left: 0px;
+margin-right: 0px;
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;
+color: #FFFFFF;
+background-color: #717471;
+padding-bottom: 3px;
+}
+.header:hover {
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;
+color: #00ffdd;
+}
+hr.blueline {
+  border: 1px solid #0326EC;
+width: 75%
+}
+hr.blueline2 {
+  border: 1px solid #20B2AA;
+width: 75%
+}
+.rf {
+background-image: url('http://retailforevermedia.000webhostapp.com/images/rfslideforrfmwebsite.png');
+background-width: 75%;
+background-repeat:no-repeat;
+font-family: 'Montserrat', sans-serif;
+background-position: center;
+}
+.dropbtn {
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: transparent;}
+
+.archive2020 {
+    background-image: url('http://retailforevermedia.000webhostapp.com/images/walnutport-pa15.JPG');
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.archive2021 {
+    background-image: url('https://retailforevermedia.000webhostapp.com/images/cvsspringvalley.png');
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bulletcolumns {
+  column-count: 3;
+}
+.browsebutton {
+   box-shadow: 0px 1px 0px 0px #1c1b18;
+   background-color: #FFFFFF;
+   border-radius:4px;
+   border:2px solid #000000;
+   display:inline-block;
+   cursor:pointer;
+   color:#000000;
+   font-family: 'Montserrat', sans-serif;
+   font-size:25px;
+   font-weight:bold;
+   padding-right: 1px;
+   padding-left: 1px;
+   padding-bottom: 5px;
+   padding-top: 12px;
+   height: 35px;
+   width: 300px;
+   text-decoration:none;
+   text-shadow:0px 1px 0px #ffffff;
+   border-radius: 0px;
+}
+.browsebutton:hover {
+   box-shadow: 0px 1px 0px 0px #1c1b18;
+   background-color: #000000;
+   border-radius:4px;
+   border:2px solid #000000;
+   display:inline-block;
+   cursor:pointer;
+   color:#FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size:25px;
+   font-weight:bold;
+   padding-right: 1px;
+   padding-left: 1px;
+   padding-bottom: 5px;
+   padding-top: 12px;
+   height: 35px;
+   width: 300px;
+   text-decoration:none;
+   border-radius: 0px;
+}
+.datetext {
+font-family: 'Montserrat', sans-serif;
+font-size: 100px;
+}
+.viewfrom {
+font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+}
+.postsbychainbody {
+font-family: 'Montserrat', sans-serif;
+margin-left: 3%;
+margin-right: 3%;
+}
