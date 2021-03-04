@@ -3,6 +3,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <link href="https://retail-forever.github.io/retailforevermedia/style.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="https://retail-forever.github.io/retailforevermedia/slideshow.js"></script>
 </head>
 <center><div class="header"><img src="https://raw.githubusercontent.com/Retail-Forever/photo-hosting/main/rfmediaheaderlogo.png" class="cursor-on-hover" onclick="window.location.href='http://retailforevermedia.000webhostapp.com'" width="34.3%"><hr class="blueline"> <a class="header" href="https://retailforevermedia.000webhostapp.com"><b>Home</b></a>&nbsp&nbsp&nbsp&nbsp&nbsp<a class="header" href="https://retailforevermedia.000webhostapp.com/directory.html"><b>Blog Directory</b></a>&nbsp&nbsp&nbsp&nbsp&nbsp<a class="header" href="https://retailforevermedia.000webhostapp.com/contact.html"><b>Contact Us</b></a>&nbsp&nbsp&nbsp&nbsp&nbsp<a class="header" href="https://retailforevermedia.000webhostapp.com/about.html"><b>About Us</b></a></div></center>
 <br><br>
@@ -80,32 +81,7 @@
 </center>
 <br><br>
 <script>
-var slideIndex = 1;
-showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
 </script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-603d2f153d2cbef8"></script>
 </div>
